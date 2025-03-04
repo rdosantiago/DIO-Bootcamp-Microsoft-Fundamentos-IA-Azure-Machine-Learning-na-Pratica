@@ -1,0 +1,46 @@
+{
+  "code": "DeploymentFailed",
+  "target": "/subscriptions/53a38575-4619-4b3b-a4a7-be67ef14fe2b/resourceGroups/rg-rdosantiago-2938_ai/providers/Microsoft.Resources/deployments/Microsoft.Template-20250304195907",
+  "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.",
+  "details": [
+    {
+      "code": "BadRequest",
+      "message": "The request is invalid.",
+      "additionalInfo": [
+        {
+          "type": "ComponentName",
+          "info": {
+            "value": "managementfrontend"
+          }
+        },
+        {
+          "type": "Correlation",
+          "info": {
+            "value": {
+              "operation": "d226fd00e640b2e7a2a0f927b7c6d2e6",
+              "request": "3d4caffb882d2716"
+            }
+          }
+        },
+        {
+          "type": "Environment",
+          "info": {
+            "value": "eastus2"
+          }
+        },
+        {
+          "type": "Location",
+          "info": {
+            "value": "eastus2"
+          }
+        },
+        {
+          "type": "Time",
+          "info": {
+            "value": "2025-03-04T22:59:17.288374+00:00"
+          }
+        }
+      ]
+    }
+  ]
+}
